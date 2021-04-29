@@ -1,4 +1,3 @@
-#if ENABLE_LEGACY_INPUT_MANAGER
 using UnityEngine;
 
 namespace ConsoleUtility
@@ -29,4 +28,3 @@ namespace ConsoleUtility
         public override bool validate => Input.GetKeyDown(ValidateKey);
     }
 }
-#endif

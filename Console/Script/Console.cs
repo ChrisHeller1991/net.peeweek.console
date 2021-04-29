@@ -719,4 +719,3 @@ Additional arguments are ignored";
 
     public class AutoRegisterConsoleCommandAttribute : System.Attribute { }
 }
-

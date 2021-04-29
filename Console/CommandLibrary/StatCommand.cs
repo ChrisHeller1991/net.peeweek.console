@@ -31,7 +31,7 @@ namespace ConsoleUtility
 
     Time Since Level Load : {Time.timeSinceLevelLoad} seconds
     FPS : {1f / Time.deltaTime}
-    Delta Time : {Time.smoothDeltaTime * 1000}ms 
+    Delta Time (smoothed): {Time.smoothDeltaTime * 1000}ms 
     Time Scale : {Time.timeScale}x
 
     Camera : {Camera.main?.name}
